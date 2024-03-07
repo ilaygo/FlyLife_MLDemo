@@ -1,14 +1,22 @@
-*.DS_Store
-*.idea
-*.iml
 .gradle
-local.properties
+build/
+.DS_Store
+*.iml
+*.apk
+*.aar
+*.zip
+google-services.json
 
 .project
 .settings
 .classpath
 
-**/Pods/
-**/*.xcuserstate
-ios-snippets/Podfile.lock
-ios-snippets/mlkit-snippets.xcworkspace/xcuserdata/dfurlong.xcuserdatad/UserInterfaceState.xcuserstate
+local.properties
+
+.idea/*
+!idea/codeStyles
+
+captures
+.externalNativeBuild
+.cxx
+
